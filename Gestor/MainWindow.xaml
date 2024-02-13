@@ -1,0 +1,33 @@
+﻿<Window x:Class="Gestor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignPaper}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        xmlns:local="clr-namespace:Gestor"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu>
+            <MenuItem Header="Cadastro">
+                <MenuItem Header="Cadastra Pessoas" Click="MenuItem_Click">
+                    
+                </MenuItem>
+                <MenuItem Header="Cadastra Fornecedores">
+                    
+                </MenuItem>
+                
+            </MenuItem>
+            <MenuItem Header="Sobre">
+                <MenuItem Header="Criador">
+
+                </MenuItem>
+            </MenuItem>
+            
+        </Menu>
+    </Grid>
+</Window>
