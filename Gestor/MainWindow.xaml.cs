@@ -21,7 +21,7 @@ namespace Gestor
             InitializeComponent();
         }
 
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
             CadastroUser cadastroUser = new CadastroUser();
             cadastroUser.Show();

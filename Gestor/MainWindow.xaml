@@ -12,22 +12,16 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Menu>
-            <MenuItem Header="Cadastro">
-                <MenuItem Header="Cadastra Pessoas" Click="MenuItem_Click">
-                    
-                </MenuItem>
-                <MenuItem Header="Cadastra Fornecedores">
-                    
-                </MenuItem>
-                
-            </MenuItem>
-            <MenuItem Header="Sobre">
-                <MenuItem Header="Criador">
-
-                </MenuItem>
-            </MenuItem>
-            
-        </Menu>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Margin="0 0 10 0" BorderThickness="25" Height="100" Width="100" Click="Button_Click">
+                <TextBlock>Add User</TextBlock>
+            </Button>
+            <Button Margin="0 0 10 0"  BorderThickness="25" Height="100" Width="100">
+                <TextBlock>Add User</TextBlock>
+            </Button>
+            <Button BorderThickness="25" Height="100" Width="100">
+                <TextBlock>Add User</TextBlock>
+            </Button>
+        </StackPanel>
     </Grid>
 </Window>

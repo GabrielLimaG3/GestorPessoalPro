@@ -23,11 +23,13 @@
 
         <StackPanel Margin="20" Grid.Row="1">
             <TextBlock Padding="10">Nome</TextBlock>
-            <TextBox/>
+            <TextBox x:Name="Nome_User"/>
             <TextBlock Padding="10">CPF</TextBlock>
-            <TextBox/>
+            <TextBox x:Name="CPF_User"/>
             <TextBlock Padding="10">RG</TextBlock>
-            <TextBox/>
+            <TextBox x:Name="RG_User"/>
+
+            <Button Margin="15 50 15 0" Click="Button_Click">Add User</Button>
 
         </StackPanel>
     </Grid>
