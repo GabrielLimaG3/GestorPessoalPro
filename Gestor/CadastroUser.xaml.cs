@@ -22,8 +22,8 @@ namespace Gestor
     /// </summary>
     public partial class CadastroUser : Window
     {
-        MySqlConnection connection;
         
+      
 
         public CadastroUser()
         {
@@ -32,26 +32,26 @@ namespace Gestor
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            string nome_user = Nome_User.ToString();
+            string cpf_user = CPF_User.ToString();
+            string rg_user = RG_User.ToString();
+            
             try {
+
                 
+                string stringConection = "server=localhost;user=root;password=root;port=3306;database=gestorpessoalpro";
+                MySqlConnection connection = new MySqlConnection(stringConection);
 
-                string stringConection = "server=localhost;uid=root;pwd=;database=gestorpessoalpro";
-                connection = new MySqlConnection(stringConection);
+                string sql = $"INSERT INTO cadastro_user values( default, {nome_user}, {cpf_user}, {rg_user})";
+                MySqlCommand command = new MySqlCommand(sql ,connection);
                 connection.Open();
-                string sql = "INSERT INTO cadastro_user values(default, " + Nome_User + "," + CPF_User + ", " + RG_User + ")";
-                MySqlCommand command = new MySqlCommand(sql, connection);
-
                 command.ExecuteReader();
             } 
             catch(Exception s) {
 
                 MessageBox.Show(s.Message);            
             }
-            finally
-            {
-                connection.Close();
-            }
-            
+
 
         }
     }
