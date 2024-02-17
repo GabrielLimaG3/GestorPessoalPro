@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         Background="{DynamicResource MaterialDesignPaper}"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         TextElement.FontWeight="Medium"
         TextElement.FontSize="14"
         FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
@@ -12,29 +13,50 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <materialDesign:ColorZone Background="#FF8BC34A" Padding="16" CornerRadius="0 0 10 10" Mode="Inverted">
+            <DockPanel>
+                <materialDesign:PopupBox
+                    DockPanel.Dock="Right"
+                    PlacementMode="BottomAndAlignRightEdges">
+                    <ListBox>
+                        <ListBoxItem Content="Configurações"/>
+                        <ListBoxItem Content="Sobre"/>
+                        <ListBoxItem Content="Sair" Selected="ListBoxItem_Selected"/>
+                    </ListBox>
+                </materialDesign:PopupBox>
+                <StackPanel
+                    Orientation="Horizontal">
+                    <TextBlock
+                        Margin="25,0,0,0"
+                        VerticalAlignment="Center"
+                        Text="GestorPessoalPro+"  FontSize="18"/>
+                    </StackPanel>
+            </DockPanel>
+        </materialDesign:ColorZone>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <Button Margin="0 0 10 0" BorderThickness="25" Height="100" Width="105" Click="Button_Click">
                 <StackPanel>
-                    <Image Margin="0 0 0 10" Width="30" Source="/Imagens/adicionar-usuario.png"/>
+                    <materialDesign:PackIcon Kind="AccountPlus"  Height="50" Width="50" HorizontalAlignment="Center"/>
                     <TextBlock FontSize="8.5">Adicionar Usuario</TextBlock>
                 </StackPanel>
 
             </Button>
-            <Button Margin="0 0 10 0"  BorderThickness="25" Height="100" Width="105">
+            <Button Margin="0 0 10 0"  BorderThickness="25" Height="100" Width="105" Click="Button_Click_1">
                 <StackPanel>
-                    <Image Width="30" Margin="0 0 0 10" Source="/usuarios-alt.png"/>
-                    <TextBlock FontSize="8.5">Procura Usuario</TextBlock>
+                    <materialDesign:PackIcon Kind="AccountSearch" Height="50" Width="50" HorizontalAlignment="Center"/>
+                    <TextBlock FontSize="8.5">Procurar Usuario</TextBlock>
                 </StackPanel>
                 
             </Button>
-            <Button BorderThickness="25" Height="100" Width="105">
+            <Button BorderThickness="25" Height="100" Width="105" Click="Button_Click_2">
                 <StackPanel>
-                    <Image Margin="0 0 0 10" Width="30" Source="/cruz.png"/>
+                    <materialDesign:PackIcon Kind="AccountCancel" Height="50" Width="50" HorizontalAlignment="Center"/>
                     <TextBlock FontSize="8.5">Remover Usuario</TextBlock>
                 </StackPanel>
             </Button>
 
 
         </StackPanel>
+
     </Grid>
 </Window>

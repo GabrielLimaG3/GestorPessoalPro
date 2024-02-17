@@ -7,15 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="CadastroUser.xaml.cs">
+    <Compile Update="Pages\CadastroUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\ProcurarUser.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\RemoverUser.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="CadastroUser.xaml">
+    <Page Update="Pages\CadastroUser.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\ProcurarUser.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Pages\RemoverUser.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

@@ -18,8 +18,6 @@ C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\refint
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\Gestor.pdb
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\Gestor.genruntimeconfig.cache
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\ref\Gestor.dll
-C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\CadastroUser.g.cs
-C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\CadastroUser.baml
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\bin\Debug\net8.0-windows\MaterialDesignColors.dll
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
@@ -39,3 +37,9 @@ C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\bin\Debug\net8.0-windows\runtim
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\Pages\CadastroUser.g.cs
+C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\Pages\ProcurarUser.g.cs
+C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\Pages\RemoverUser.g.cs
+C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\Pages\CadastroUser.baml
+C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\Pages\ProcurarUser.baml
+C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\Pages\RemoverUser.baml

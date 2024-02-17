@@ -26,5 +26,22 @@ namespace Gestor
             CadastroUser cadastroUser = new CadastroUser();
             cadastroUser.Show();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            ProcurarUser procurarUser = new ProcurarUser();
+            procurarUser.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            RemoverUser removerUser = new RemoverUser();
+            removerUser.Show();
+        }
+
+        private void ListBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\App.xaml
-21683683276
+4316112870
 
-7-1560755345
+9388071146
 2091507006312
-CadastroUser.xaml;MainWindow.xaml;
+MainWindow.xaml;Pages\CadastroUser.xaml;Pages\ProcurarUser.xaml;Pages\RemoverUser.xaml;
 
-True
+False
 
