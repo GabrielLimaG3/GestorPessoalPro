@@ -4,7 +4,7 @@
 
 #### **1. Instale o `.NET 8` ou superior, por meio [deste link](https://dotnet.microsoft.com/pt-br/download)**
 
-#### **2. Clone Esse Repositório**
+#### **2. Clone Esse `Repositório`**
 
 #### **3. Crie uma Pasta para o Projeto**
 
