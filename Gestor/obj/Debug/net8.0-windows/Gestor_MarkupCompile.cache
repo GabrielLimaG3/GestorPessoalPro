@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\obj\Debug\net8.0-windows\
+C:\Users\Gabriel\Git\GestorPessoalPro\Gestor\obj\Debug\net8.0-windows\
 Gestor
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Gabriel\C#\WPF\GestorPessoalPro+\Gestor\App.xaml
+C:\Users\Gabriel\Git\GestorPessoalPro\Gestor\App.xaml
 4316112870
 
 7-162609141
-2091507006312
+209-1041424662
 MainWindow.xaml;Pages\CadastroUser.xaml;Pages\ProcurarUser.xaml;Pages\RemoverUser.xaml;
 
 False

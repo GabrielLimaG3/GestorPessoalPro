@@ -8,6 +8,6 @@
         Title="ProcurarUser" Height="409" Width="479">
     <Grid>
 
-
+    <DataGrid x:Name="DG"></DataGrid>
     </Grid>
 </Window>
