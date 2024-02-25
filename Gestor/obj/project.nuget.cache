@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GJdD78X6mMDsGwEx8UT2t44anf9eIlZpb6thCFBU42sJaqNT/ZiHjs6ECZdGlC0OJ++wPlF9yIZ0++3iC/RD/A==",
+  "dgSpecHash": "hSWdeNRpJxDPNwpRXS3ba8BWA5oBpq7gicPoyY3uZ3Oca1G9Lk7+yK9GhsIwWiZINO6qIAZHUH8q9qyzyqOjtg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Gabriel\\C#\\WPF\\GestorPessoalPro+\\Gestor\\Gestor.csproj",
+  "projectFilePath": "C:\\Users\\Gabriel\\Git\\GestorPessoalPro\\Gestor\\Gestor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gabriel\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Gabriel\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
